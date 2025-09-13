@@ -81,13 +81,10 @@ st.header("Enter Your Details")  # Section header
 # Dropdown to select customer ID
 test_user = st.selectbox(
     "Choose a Customer ID:",
-    [
-        '000058a12d5b43e67d225668fa1f8d618c13dc232df0cad8ffe7ad4a1091e318',  # Example ID from dataset
-        'some_customer_id_2'  # Another placeholder ID
-    ]
+    ['0000423b00ade91418cceaf3b26c6af3dd342b51fd051eec9c12fb36984420fa', '000058a12d5b43e67d225668fa1f8d618c13dc232df0cad8ffe7ad4a1091e318', '00007d2de826758b65a93dd24ce629ed66842531df6699338c5570910a014cc2', '0000f1c71aafe5963c3d195cf273f7bfd50bbf17761c9199e53dbb81641becd7', '00015c1a121e08bbd2552c15fbbb6e6b19d3bf8f7b6a3d60c6d7be26f06264d6']
 )
 # Input box for entering a liked article
-test_article = st.text_input("Enter an Article ID you like:", '108775015')
+test_article = st.text_input("Enter an Article ID you like:", 573086001)
 # Button to trigger recommendation
 run_button = st.button("Get Recommendations")
 
